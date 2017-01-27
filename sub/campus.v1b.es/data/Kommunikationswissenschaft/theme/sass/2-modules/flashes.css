@@ -1,0 +1,51 @@
+.flash-alert {
+  background-color: #fff6bf;
+  color: shade(#fff6bf, 60%);
+  display: block;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center; }
+  .flash-alert a {
+    color: shade(#fff6bf, 70%);
+    text-decoration: underline; }
+    .flash-alert a:focus, .flash-alert a:hover {
+      color: shade(#fff6bf, 90%); }
+
+.flash-error {
+  background-color: #fbe3e4;
+  color: shade(#fbe3e4, 60%);
+  display: block;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center; }
+  .flash-error a {
+    color: shade(#fbe3e4, 70%);
+    text-decoration: underline; }
+    .flash-error a:focus, .flash-error a:hover {
+      color: shade(#fbe3e4, 90%); }
+
+.flash-notice {
+  background-color: #e5edf8;
+  color: shade(#e5edf8, 60%);
+  display: block;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center; }
+  .flash-notice a {
+    color: shade(#e5edf8, 70%);
+    text-decoration: underline; }
+    .flash-notice a:focus, .flash-notice a:hover {
+      color: shade(#e5edf8, 90%); }
+
+.flash-success {
+  background-color: #e6efc2;
+  color: shade(#e6efc2, 60%);
+  display: block;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center; }
+  .flash-success a {
+    color: shade(#e6efc2, 70%);
+    text-decoration: underline; }
+    .flash-success a:focus, .flash-success a:hover {
+      color: shade(#e6efc2, 90%); }

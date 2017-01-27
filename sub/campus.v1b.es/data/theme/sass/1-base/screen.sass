@@ -1,0 +1,73 @@
+font
+  font-family: $helvetica
+  color: white
+  text-decoration: none
+.darkbg
+  background: tint(black, 30%)
+.lightbg
+  background: tint(black, 40%)
+.pinkbg
+  background: tint(lightpink, 40%)
+.green
+  color: tint(green, 40%)
+.round
+  border-radius: 1em
+body
+  @extend .darkbg
+  //@include background-image(url("/img/lisa.gif"), linear-gradient(white 0, yellow 50%, transparent 50%))
+.topbar
+  +outer-container()
+  max-width: 100% //full
+  @extend .round
+  @extend .lightbg
+  margin-bottom: 1em
+h1
+  @extend font
+  +span-columns(12)
+  text-align: center
+  padding: 10px
+  font-size: -webkit-xxx-large
+a:visited
+  text-decoration: none
+p
+  @extend font
+  text-align: center
+  font-size: -webkit-xxx-medium
+section
+  +clearfix
+  +outer-container
+img
+  padding: 2em
+  margin: 1em
+  @extend .round
+  width: 100%
+@media only screen and (max-width: 1400px)
+  box
+    @include span-columns(4)
+.pw-box
+  @include span-columns(12)
+  text-align: center
+  margin: 0 auto
+input
+  @include span-columns(12)
+  width: 100%
+  //height: 6em
+  font-size: -webkit-xxx-large
+  @extend .round
+  text-align: center
+input:focus
+    outline: none !important
+#enter_btn
+  @include background-image(url("/img/wobble.gif"), linear-gradient(white 0, yellow 50%, transparent 50%))
+  @extend font
+  @extend .round
+  @include span-columns(6)
+  @include shift(3)
+  margin-top: 1em
+#enter_btn:hover
+  cursor: pointer
+.imgbox
+  @include span-columns(6)
+  @include shift(3)
+.success
+  @extend .green
