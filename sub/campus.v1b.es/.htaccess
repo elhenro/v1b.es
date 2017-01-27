@@ -1,0 +1,8 @@
+AuthUserFile /home/strato/www/he/www.henry-schober.com/htdocs/.htpasswd
+AuthGroupFile /dev/null
+AuthName Intern
+AuthType Basic
+
+require valid-user DAB
+
+Redirect /index.html http://campus.ileakwhenip.net/data/

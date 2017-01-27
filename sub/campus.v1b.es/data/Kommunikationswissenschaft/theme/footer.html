@@ -1,0 +1,15 @@
+</div>
+<div class="footer">
+</div>
+<script type="text/javascript">
+document.getElementsByTagName('tr')[1].className = 'parent';
+var uri = window.location.pathname.substr(1);
+if (uri.substring(uri.length-1) != '/'){
+	var indexes = document.getElementsByClassName('indexcolname'),
+	i = indexes.length;
+	while (i--){
+	    var a = indexes[i].getElementsByTagName('a')[0];
+	    a.href = '/' + uri + '/' + a.getAttribute('href',2);
+	}
+}
+</script>
