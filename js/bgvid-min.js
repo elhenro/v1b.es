@@ -1,0 +1,1 @@
+function vidFade(){vid.classList.add("stopfade")}var vid=document.getElementById("bgvid");vid.addEventListener("ended",function(){vid.pause(),vidFade()});
