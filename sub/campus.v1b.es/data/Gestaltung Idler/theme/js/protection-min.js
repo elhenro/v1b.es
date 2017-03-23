@@ -1,1 +1,0 @@
-function TheLogin(){var e="pepper";this.document.login.pass.value==e?top.location.href="correct.html":window.alert("Incorrect password, please try again.")}
