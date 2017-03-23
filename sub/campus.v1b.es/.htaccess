@@ -1,8 +1,0 @@
-AuthUserFile /var/www/virtual/v1ber/html/htdocs/.htpasswd
-AuthGroupFile /dev/null
-AuthName Intern
-AuthType Basic
-
-require valid-user DAB
-
-Redirect /index.html http://campus.v1b.es/data/
