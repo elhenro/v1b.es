@@ -33,7 +33,6 @@ a:focus {
 	pointer-events: none;
 }
 
-/* Icons */
 .icon {
 	display: block;
 	width: 1.5em;
@@ -51,7 +50,6 @@ a:focus {
 	background: #ff3d53;
 }
 
-/* Header */
 .codrops-header {
 	display: flex;
 	flex-direction: row;
@@ -284,7 +282,7 @@ a:focus {
 	color: #b0adad;
 }
 
-/* Individual effects */
+/* Die einzelnen hover effects */
 
 /* Vega */
 .grid--effect-vega .column {
