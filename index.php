@@ -29,7 +29,7 @@
                         <h3 class="grid__item-title">our websites</h3>
                     </div>
                 </a>
-                <a href="#" class="grid__item grid__item--c2">
+                <a id="subdomains" class="grid__item grid__item--c2">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -60,11 +60,6 @@
             </div>
         </section>
     <!-- hover Ordner end -->
-
-    <!-- Modal button -->
-        <div class="wrapper">
-            <button id="modBtn" class="modal-btn">Open Modal</button>
-        </div>
 
     <!-- Modal -->
         <div id="modal" class="modal">
