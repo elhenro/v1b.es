@@ -89,9 +89,22 @@
                 </div>
                 <!-- Modal Body -->
                 <div class="modal-body">
-                    <h3>color.v1b.es</h3>
-                    <h3>sudo.kill.all.v1b.es</h3>
-                    <h3>sad.v1b.es</h3>
+                      <?php
+                      if (is_dir("../sub")) {
+                        if ($dh = opendir("../sub")) {
+                            while (($file = readdir($dh)) !== false) {
+                              if ($file !== ".") {
+                                if ($file !== "..") {
+                                  if ($file !== ".DS_Store") {
+                                      echo '<a href="http://'.$file.'"><h3>'.$file.'</h3></a>';
+                                  }
+                                }
+                              }
+                            }
+                            closedir($dh);
+                        }
+                      }
+                      ?>
                 </div>
             </div>
         </div>
