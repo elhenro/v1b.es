@@ -5,7 +5,7 @@
 $(function() {
 
     // Vars
-    var modBtn  = $('#modBtn'),
+    var modBtn  = $('#subdomains'),
         modal   = $('#modal'),
         close   = modal.find('.close'),
         modContent = modal.find('.modal-content');
