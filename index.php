@@ -76,7 +76,6 @@
             </div>
         </section>
     <!-- hover Ordner end -->
-
     <!-- Modal -->
         <div id="modal" class="modal">
             <!-- Modal Content -->
