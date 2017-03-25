@@ -8,6 +8,22 @@
     <!-- font-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- font-->
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//pivik.v1b.es/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+
 </head>
 
 <body>
@@ -73,9 +89,22 @@
                 </div>
                 <!-- Modal Body -->
                 <div class="modal-body">
-                    <h3>color.v1b.es</h3>
-                    <h3>sudo.kill.all.v1b.es</h3>
-                    <h3>sad.v1b.es</h3>
+                      <?php
+                      if (is_dir("../sub")) {
+                        if ($dh = opendir("../sub")) {
+                            while (($file = readdir($dh)) !== false) {
+                              if ($file !== ".") {
+                                if ($file !== "..") {
+                                  if ($file !== ".DS_Store") {
+                                      echo '<a href="http://'.$file.'"><h3>'.$file.'</h3></a>';
+                                  }
+                                }
+                              }
+                            }
+                            closedir($dh);
+                        }
+                      }
+                      ?>
                 </div>
             </div>
         </div>
