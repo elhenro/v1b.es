@@ -521,8 +521,8 @@ h1, h2, h3, h4, h5, h6 {
 *:hover {
   cursor: url("cursor.png"), default; }
 
-.stack:hover, a:hover, h1 {
-  cursor: url("cursor_stiff.png"), default; }
+h1:hover, h3:hover, img:hover {
+  cursor: url("cursor_stiff.png"), default !important; }
 
 h1 {
   font-family: "Open Sans", sans-serif;
