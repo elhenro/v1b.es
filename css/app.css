@@ -411,21 +411,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 40px; }
 
-/* Modal button */
-.modal-btn {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 25px;
-  background-color: #e74d54;
-  color: white;
-  transition: all .3s; }
-  .modal-btn:hover {
-    background-color: #d25729; }
-
-/* Modal */
 .modal {
   display: none;
   overflow: auto;
@@ -442,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0px;
   width: 600px;
   margin: 0 auto;
-  background-color: #e74d54;
+  background: linear-gradient(to bottom, #e74d54 36%, #db5e60 71%, #cc5759 100%);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .modal-animated-in {
@@ -452,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: totop-out .3s ease forwards; }
 
 .modal-header {
-  background-color: #e74d54;
+  background: linear-gradient(to bottom, #e74d54 36%, #db5e60 71%, #cc5759 100%);
   width: 100%;
   height: 60px;
   line-height: 60px;
@@ -481,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Modal Body */
 .modal-body {
   padding: 0 20px;
-  background-color: #e74d54; }
+  background: linear-gradient(to bottom, #e74d54 36%, #db5e60 71%, #cc5759 100%); }
   .modal-body ul {
     margin: 0;
     padding: 0;
@@ -503,11 +488,11 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-font-smoothing: antialiased; }
 
 .websitemodal {
-  background-color: #394e8a; }
+  background: linear-gradient(to bottom, #394e8a 36%, #394f7f 71%, #334772 100%); }
 
 /* Modal Footer */
 .modal-footer {
-  background-color: #e74d54;
+  background: linear-gradient(to bottom, #e74d54 36%, #db5e60 71%, #cc5759 100%);
   width: 100%;
   height: 60px;
   line-height: 60px;
@@ -551,3 +536,10 @@ iframe {
 
 .gitlink h3 {
   opacity: .6; }
+
+.external-logo {
+  opacity: .7;
+  margin: auto;
+  display: block;
+  height: 50px;
+  width: auto; }

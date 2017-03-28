@@ -133,7 +133,10 @@
                 <a href="https:/einmarco.com" target="_blank"><h3>einmarco.com</h3></a>
                 <br>
                 <!-- vib.es git -->
-                <a class="gitlink" href="https://github.com/elhenro/v1b.es" target="_blank"><h3>this site on git</h3></a>
+                <a class="gitlink" href="https://github.com/elhenro/v1b.es" target="_blank">
+                    <img class="external-logo" src="img/git.png" alt="git icon"/>
+                    <h3>this site on git</h3>
+                </a>
                 <br>
             </div>
         </div>
