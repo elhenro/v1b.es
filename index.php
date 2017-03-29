@@ -31,7 +31,7 @@
     <!-- hover Ordner start -->
         <section class="content">
             <div class="grid grid--effect-altair">
-                <a id="websites" href="#" class="grid__item grid__item--c1">
+                <a id="websites" class="grid__item grid__item--c1">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -59,7 +59,7 @@
                         <h3 class="grid__item-title">subdomains</h3>
                     </div>
                 </a>
-                <a id="communcation" href="mailto:info@v1b.es" class="grid__item grid__item--c3">
+                <a id="contact" class="grid__item grid__item--c3">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="grid__item-caption">
-                        <h3 class="grid__item-title">communication</h3>
+                        <h3 class="grid__item-title">contact</h3>
                     </div>
                 </a>
             </div>
@@ -137,6 +137,26 @@
                     <img class="external-logo" src="img/git.png" alt="git icon"/>
                     <h3>this site on git</h3>
                 </a>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- Modal websites end -->
+
+    <!-- Modal für contact -->
+    <div id="contactmodal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content contactmodal">
+            <!-- Modal Header -->
+            <div class="modal-header contactmodal">
+                <h1 class="header-title">contact</h1>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body contactmodal">
+                <br>
+                <a href="http://henry.pink/impressum.html" target="_blank"><h3>Impressum</h3></a>
+                <br>
+                <a href="mailto:info@v1b.es"><h3>mail us</h3></a>
                 <br>
             </div>
         </div>
