@@ -490,7 +490,9 @@ h1, h2, h3, h4, h5, h6 {
 .websitemodal {
   background: linear-gradient(to bottom, #394e8a 36%, #394f7f 71%, #334772 100%); }
 
-/* Modal Footer */
+.contactmodal {
+  background: linear-gradient(to bottom, #f4d647 36%, #e5cd52 71%, #d5bf4d 100%); }
+
 .modal-footer {
   background: linear-gradient(to bottom, #e74d54 36%, #db5e60 71%, #cc5759 100%);
   width: 100%;
