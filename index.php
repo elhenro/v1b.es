@@ -154,7 +154,7 @@
             <!-- Modal Body -->
             <div class="modal-body contactmodal">
                 <br>
-                <a href="http://henry.pink/impressum.html" target="_blank"><h3>Impressum</h3></a>
+                <a href="http://henry.pink/imprint" target="_blank"><h3>Impressum</h3></a>
                 <br>
                 <a href="mailto:info@v1b.es"><h3>mail us</h3></a>
                 <br>
