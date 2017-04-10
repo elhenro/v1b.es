@@ -130,7 +130,7 @@
                 <!-- Henry Website -->
                 <a href="https://henry.pink" target="_blank"><h3>henry.pink</h3></a>
                 <!-- Marco Website -->
-                <a href="https:/einmarco.com" target="_blank"><h3>einmarco.com</h3></a>
+                <a href="https://einmarco.com" target="_blank"><h3>einmarco.com</h3></a>
                 <br>
                 <!-- vib.es git -->
                 <a class="gitlink" href="https://github.com/elhenro/v1b.es" target="_blank">
