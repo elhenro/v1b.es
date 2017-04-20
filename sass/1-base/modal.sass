@@ -1,5 +1,21 @@
-$color1: #e74d54
+//-/-/-/-/-/- Colors -/-/-/-/-/-/-/-//
+$mod-red: #e74d54
+$mod-red-1: #db5e60
+$mod-red-2: #cc5759
+
+$color1: linear-gradient(to bottom, $mod-red 36%,$mod-red-1 71%, $mod-red-2 100%)
 $color2: white
+$mod-blue: #394e8a
+$mod-blue-1: #394f7f
+$mod-blue-2: #334772
+
+$mod-yellow: #f4d647
+$mod-yellow-1: #e5cd52
+$mod-yellow-2: #d5bf4d
+
+//-/-/-/-/-/-  Gradients -/-/-/-/-/-//
+//background: linear-gradient(to bottom, $mod-blue 36%,$mod-blue-1 71%, $mod-blue-2 100%)
+
 $font: 'Open Sans', sans-serif
 
 *
@@ -30,23 +46,6 @@ h1, h2, h3, h4, h5, h6
     margin-top: 0
     margin-bottom: 40px
 
-/* Modal button
-
-.modal-btn
-  text-transform: uppercase
-  letter-spacing: 1px
-  border: none
-  outline: none
-  cursor: pointer
-  padding: 10px 25px
-  background-color: #e74d54
-  color: white
-  transition: all .3s
-  &:hover
-    background-color: #d25729
-
-/* Modal
-
 .modal
   //background-color: $color1
   display: none
@@ -65,7 +64,7 @@ h1, h2, h3, h4, h5, h6
   top: 0px
   width: 600px
   margin: 0 auto
-  background-color: $color1
+  background: $color1
   //background-color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
@@ -76,7 +75,7 @@ h1, h2, h3, h4, h5, h6
   animation: totop-out .3s ease forwards
 
 .modal-header
-  background-color: $color1
+  background: $color1
   width: 100%
   height: 60px
   line-height: 60px
@@ -105,7 +104,7 @@ h1, h2, h3, h4, h5, h6
 /* Modal Body
 .modal-body
   padding: 0 20px
-  background-color: $color1
+  background: $color1
   ul
     margin: 0
     padding: 0
@@ -126,10 +125,17 @@ h1, h2, h3, h4, h5, h6
         text-rendering: auto
         -webkit-font-smoothing: antialiased
 
-/* Modal Footer
+//website modal color
+.websitemodal
+  //background: linear-gradient()
+  background: linear-gradient(to bottom, $mod-blue 36%,$mod-blue-1 71%, $mod-blue-2 100%)
+
+//contact modal
+.contactmodal
+  background: linear-gradient(to bottom, $mod-yellow 36%,$mod-yellow-1 71%, $mod-yellow-2 100%)
 
 .modal-footer
-  background-color: $color1
+  background: $color1
   width: 100%
   height: 60px
   line-height: 60px

@@ -1,11 +1,34 @@
-//nothing
+
+*:hover
+  cursor: url('cursor.png'), default
+h1:hover, h3:hover, img:hover
+  cursor: url('cursor_stiff.png'), default !important
+
+a
+  @extend .noselect
 h1
   font-family: $font
   text-align: center
   color: white
+  @extend .noselect
+  cursor: default
 iframe
   margin-top: 40px
   display: none
   //width: calc(100%/4)
   //height: 10px
   @extend center
+.gitlink h3
+  opacity: .6
+.external-logo
+  opacity: .7
+  margin: auto
+  display: block
+  height: 50px
+  width: auto
+
+.websitemodal
+  a
+    background-color:
+
+//-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//

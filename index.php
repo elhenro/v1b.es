@@ -31,7 +31,7 @@
     <!-- hover Ordner start -->
         <section class="content">
             <div class="grid grid--effect-altair">
-                <a href="#" class="grid__item grid__item--c1">
+                <a id="websites" class="grid__item grid__item--c1">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -59,7 +59,7 @@
                         <h3 class="grid__item-title">subdomains</h3>
                     </div>
                 </a>
-                <a href="#" class="grid__item grid__item--c3">
+                <a id="contact" class="grid__item grid__item--c3">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -70,19 +70,20 @@
                         </div>
                     </div>
                     <div class="grid__item-caption">
-                        <h3 class="grid__item-title">communication</h3>
+                        <h3 class="grid__item-title">contact</h3>
                     </div>
                 </a>
             </div>
         </section>
     <!-- hover Ordner end -->
-    <!-- Modal -->
+  
+    <!-- Modal für subdomains -->
         <div id="modal" class="modal">
             <!-- Modal Content -->
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h3 class="header-title">Überschrift</h3>
+                    <h1 class="header-title">subdomains</h1>
                     <!-- braucht man eig nicht -->
                     <!--<div class="close fa fa-close"></div>-->
                 </div>
@@ -104,13 +105,66 @@
                         }
                       }
                       ?>
+                    <br>
                 </div>
             </div>
         </div>
-    <!-- Modal end -->
+    <!-- Modal subdomains end -->
+
+    <!-- Modal für websites -->
+    <div id="websitemodal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content websitemodal">
+            <!-- Modal Header -->
+            <div class="modal-header websitemodal">
+                <h1 class="header-title">our websites</h1>
+                <!-- braucht man eig nicht -->
+                <!--<div class="close fa fa-close"></div>-->
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body websitemodal">
+
+                <br>
+                <!--Marcel Website-->
+                <a href="http://mpahnke.de" target="_blank"><h3>mpahnke.de</h3></a>
+                <!-- Henry Website -->
+                <a href="https://henry.pink" target="_blank"><h3>henry.pink</h3></a>
+                <!-- Marco Website -->
+                <a href="http://einmarco.com" target="_blank"><h3>einmarco.com</h3></a>
+                <br>
+                <!-- vib.es git -->
+                <a class="gitlink" href="https://github.com/elhenro/v1b.es" target="_blank">
+                    <img class="external-logo" src="img/git.png" alt="git icon"/>
+                    <h3>this site on git</h3>
+                </a>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- Modal websites end -->
+
+    <!-- Modal für contact -->
+    <div id="contactmodal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content contactmodal">
+            <!-- Modal Header -->
+            <div class="modal-header contactmodal">
+                <h1 class="header-title">contact</h1>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body contactmodal">
+                <br>
+                <a href="http://henry.pink/imprint" target="_blank"><h3>Impressum</h3></a>
+                <br>
+                <a href="mailto:info@v1b.es"><h3>mail us</h3></a>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- Modal websites end -->
 </body>
 
-<video poster="" id="bgvid" playsinline autoplay muted loop>
+<video poster="" id="bgvid" autoplay muted loop>
     <source src="vid/fog.webm" type="video/webm">
     <source src="vid/fog.mp4" type="video/mp4">
     <source src="vid/fog.ogv" type="video/ogv">
