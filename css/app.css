@@ -24,7 +24,7 @@ video {
     box-sizing: border-box; }
 
 body {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Dancing Script', cursive;
   color: #edecf2;
   background: #37373e;
   -webkit-font-smoothing: antialiased;
@@ -389,14 +389,14 @@ center, .center, iframe {
 body {
   background-color: #eee;
   min-height: 2000px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
   color: #444; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 700;
   color: #222; }
 
@@ -527,7 +527,7 @@ h1:hover, h3:hover, img:hover {
   cursor: url("cursor_stiff.png"), default !important; }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
   text-align: center;
   color: white;
   cursor: default; }
