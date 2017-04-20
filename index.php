@@ -93,10 +93,11 @@
                       if (is_dir("../sub")) {
                         if ($dh = opendir("../sub")) {
                             while (($file = readdir($dh)) !== false) {
-                              $secret = substr($file, 0);
+
                               if ($file !== ".") {
                                 if ($file !== "..") {
                                   if ($file !== ".DS_Store") {
+                                    $secret = substr($file, 0, 1);
                                     if ($secret !== "_") {
                                       echo '<a href="http://'.$file.'"><h3>'.$file.'</h3></a>';
                                       echo $secret;
