@@ -6,7 +6,7 @@
     <title>root.v1b.es</title>
     <link rel="stylesheet" href="css/app.css" />
     <!-- font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700;Open+Sans" rel="stylesheet">
     <!-- font-->
     <!-- Piwik -->
     <script type="text/javascript">
