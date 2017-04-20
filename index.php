@@ -99,6 +99,7 @@
                                   if ($file !== ".DS_Store") {
                                     if ($secret !== "_") {
                                       echo '<a href="http://'.$file.'"><h3>'.$file.'</h3></a>';
+                                      echo $secret;
                                     }
                                   }
                                 }
