@@ -167,16 +167,16 @@
     </div>
     <!-- Modal websites end -->
 </body>
-<!--
+
 <video poster="" id="bgvid" autoplay muted loop>
     <source src="vid/fog.webm" type="video/webm">
     <source src="vid/fog.mp4" type="video/mp4">
     <source src="vid/fog.ogv" type="video/ogv">
 </video>
--->
+
 <footer>
     <script type="text/javascript" src="js/jquery.js"></script>
-    <!-- <script type="text/javascript" src="js/bgvid.js"></script> -->
+    <script type="text/javascript" src="js/bgvid.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
     <!-- Hover ordner scripts -->
     <script type="text/javascript" src="js/anime.min.js"></script>
