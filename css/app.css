@@ -481,7 +481,7 @@ a {
   -ms-user-select: none;
   user-select: none; }
 
-center, .center, iframe {
+center, .center, .Logo, iframe {
   margin-right: auto;
   margin-left: auto;
   text-align: center; }
@@ -667,6 +667,9 @@ h1 {
   text-align: center;
   color: white;
   cursor: default; }
+
+.Logo {
+  width: 50vw; }
 
 iframe {
   margin-top: 40px;
