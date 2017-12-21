@@ -1,8 +1,9 @@
 body{
+  padding-top: 20px;
   width: 100%;
   max-width: 700px;
   margin: auto;
-  font-family: Avenir Next;
+  font-family: sans-serif;
 }
 
 textarea{
@@ -10,4 +11,16 @@ textarea{
   height: 120px;
   width: 100%;
   max-width: 400px;
+}
+
+img{
+  width: 80%;
+  max-width: 200px;
+  margin: auto;
+  selectable: none;
+}
+
+::selection{
+  background-color: black;
+  color: white;
 }
